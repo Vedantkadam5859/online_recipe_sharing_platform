@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Meal For Your Ingredients</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel = "stylesheet" href = "createrecipe.css">
+</head>
+
+    <title>Create Recipe</title>
+    <style>
+      body {
+          background-image: url(Add\ recipe.jpg);
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+      }
+      form {
+        margin: 50px auto;
+        max-width: 500px;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+      }
+
+      /* Style the form inputs */
+      input[type=text], textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+
+      
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="my-button" class="btn" href="index.html"> HOME</a>
+    <a href="Bg main.avif"> </a>
+    <form>
+      <h2>Create Recipe</h2>
+      <label for="recipe-name">Recipe Name</label>
+      <input type="text" id="recipe-name" name="recipe-name" placeholder="Enter recipe name...">
+
+      <label for="ingredients">Ingredients</label>
+      <textarea id="ingredients" name="ingredients" placeholder="Enter ingredients..."></textarea>
+
+      <label for="stepwise-recipe">Stepwise Recipe</label>
+      <textarea id="stepwise-recipe" name="stepwise-recipe" placeholder="Enter stepwise recipe..."></textarea>
+
+      <input type="submit" value="Create Recipe">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+
+:root{
+    --tenne-tawny: #f95700;
+    --tenne-tawny-dark:#f95700;
+}
+.body{
+    background-image: url(About.png);
+   background-repeat: no-repeat;
+    color: antiquewhite;
+    background-size: cover;
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;    
+}
+.h1{
+      font-weight: 80px;
+      font-size: 1.05rem;
+      line-height: 1.6;
+      font-family: 'Poppins', sans-serif;
+    }
+.aboutbtn:hover {
+        background-color: #000000;
+        color: orange;
+        transform: translateY(-2px);
+      }
+.aboutbtn{
+        display: inline-block;
+        outline: 0;
+        border: 0;
+        cursor: pointer;
+        background: #000000;
+        color: #FFFFFF;
+        border-radius: 8px;
+        padding: 14px 24px 16px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1;
+        transition: background 0.5s ease-out;
+     
+    }
+.my-button{  
+        display: inline-block;
+        outline: 0;
+        border: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 40;
+        cursor: pointer;
+        background: #0000;
+        border: orange;
+        border-width: 1px;
+        color: #FFFFFF;
+        border-radius: 8px;
+        padding: 14px 24px 16px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1;
+        transition: transform 200ms,background 200ms;
+        :hover{
+            transform: translateY(-2px);
+        }
+}
+.btn{
+    background-color: aqua;
+    font-family: inherit;
+    cursor: pointer;
+    font-size
+    outline: 0;
+    font-size: 16px;
+}
+.title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.text{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
